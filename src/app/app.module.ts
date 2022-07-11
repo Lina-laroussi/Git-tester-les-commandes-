@@ -6,11 +6,13 @@ import { CoreModule } from './core/core.module';
 import { LandingPageModule } from './landing-page/landing-page.module';
 import { AuthModuleModule } from './auth-module/auth-module.module';
 import { FaceSnapsModule } from './face-snaps/face-snaps.module';
+import { NewComponentComponent } from './dossier/new-component/new-component.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    NewComponentComponent,
   ],
   imports: [
     BrowserModule,
